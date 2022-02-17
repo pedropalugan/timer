@@ -58,8 +58,14 @@ function StartL(){
         sec = 59;
         }
         else if (sec > 0){
+            if(min > 0){
             console.log(min + " : " + sec)
             sec--
+            }
+            else if(min == 0){
+                console.log(min + " : " + sec)
+                sec--
+            }
         }
     }
 
