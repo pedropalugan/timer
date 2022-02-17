@@ -42,6 +42,39 @@ const Short = () => {
 
 
 function StartL(){
-    let min = 24;
+    let min = 2;
     let sec = 59;
-}
+    function timerLM(){
+        if (min <= 0){
+
+        }
+        else if (min > 0){
+            min--
+        }
+    }
+    function timerLS(){
+        if (sec <= 0){
+        console.log(min + " : " + sec)
+        sec = 59;
+        }
+        else if (sec > 0){
+            console.log(min + " : " + sec)
+            sec--
+        }
+    }
+    function paraAcabar(){
+        sec = 59
+        console.log(0 + " : " + sec)
+        sec--
+    }
+    if (min > 0){
+        setInterval(timerLS, 100);
+        setInterval(timerLM, 6000);
+        }
+    else if (min == 0){
+            setInterval(paraAcabar, 1000)
+        }
+
+    }
+
+    
