@@ -62,17 +62,10 @@ function StartL(){
             sec--
         }
     }
-    function paraAcabar(){
-        sec = 59
-        console.log(0 + " : " + sec)
-        sec--
-    }
+
     if (min > 0){
         setInterval(timerLS, 100);
         setInterval(timerLM, 6000);
-        }
-    else if (min == 0){
-            setInterval(paraAcabar, 1000)
         }
 
     }
