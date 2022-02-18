@@ -12,3 +12,5 @@
 
 
 <h2>Site LINK</h2>
+<hr>
+https://pedropalugan.github.io/timer/
