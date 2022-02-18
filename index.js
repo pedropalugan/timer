@@ -9,6 +9,7 @@ const Long = () => {
     <button onclick = "Long()" class="btn btn-primary">Long Break</button>
     <button onclick = "Medium()" class="btn btn-primary">Medium Break</button>
     <button onclick = "Short()" class="btn btn-primary">Short Break</button>
+    <button onclick = "Reset()" class="btn btn-danger">Reset Timer</button>
     </div>
     </div>
     `
@@ -25,6 +26,7 @@ const Medium = () => {
     <button onclick = "Long()" class="btn btn-primary">Long Break</button>
     <button onclick = "Medium()" class="btn btn-primary">Medium Break</button>
     <button onclick = "Short()" class="btn btn-primary">Short Break</button>
+    <button onclick = "Reset()" class="btn btn-danger">Reset Timer</button>
     </div>
     </div>
     `
@@ -41,6 +43,7 @@ const Short = () => {
     <button onclick = "Long()" class="btn btn-primary">Long Break</button>
     <button onclick = "Medium()" class="btn btn-primary">Medium Break</button>
     <button onclick = "Short()" class="btn btn-primary">Short Break</button>
+    <button onclick = "Reset()" class="btn btn-danger">Reset Timer</button>
     </div>
 </div>
     `
@@ -193,4 +196,17 @@ function StartL(){
         
             }
         
-        
+const Reset = () =>{
+    let div = document.getElementById("mainContent")
+    div.parentNode.removeChild(div)
+    document.getElementById("main").innerHTML = `
+    <div id = "mainContent">
+    <output id = "timer" class = "teste">25:00</output>
+    <div class = "box2">
+    <button onclick = "Long()" class="btn btn-primary">Long Break</button>
+    <button onclick = "Medium()" class="btn btn-primary">Medium Break</button>
+    <button onclick = "Short()" class="btn btn-primary">Short Break</button>
+    </div>
+    </div>
+    `
+}
