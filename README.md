@@ -1,4 +1,4 @@
 # Timer
 <br>
 
-<h2>Projeto em andamento, em que se deve produzir um timer para as aulas de PWBE</h2>
+<h3>Project made for Back-End classes in which I was supposed to make a</h3>
