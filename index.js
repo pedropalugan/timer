@@ -92,8 +92,8 @@ function StartL(){
     }
 
     if (min > 0){
-        setInterval(timerLS, 10);
-        setInterval(timerLM, 600);
+        setInterval(timerLS, 1000);
+        setInterval(timerLM, 60000);
         }
 
     }
@@ -140,8 +140,8 @@ function StartL(){
         }
     
         if (min > 0){
-            setInterval(timerLS, 10);
-            setInterval(timerLM, 600);
+            setInterval(timerLS, 1000);
+            setInterval(timerLM, 60000);
             }
     
         }
@@ -190,8 +190,8 @@ function StartL(){
             }
         
             if (min > 0){
-                setInterval(timerLS, 10);
-                setInterval(timerLM, 600);
+                setInterval(timerLS, 1000);
+                setInterval(timerLM, 60000);
                 }
         
             }
